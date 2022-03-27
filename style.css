@@ -43,6 +43,11 @@
     src: url(/Assets/Fonts/Dekar.ttf);
 }
 
+@font-face {
+    font-family: Hullist;
+    src: url(/Assets/Fonts/Hullist.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -93,6 +98,7 @@
     top: 50%;
     transform: translateY(-50%);
     color: rgb(58, 28, 51);
+    margin-left: 20px;
 }
 
 @keyframes Header_Transition {
@@ -110,7 +116,6 @@
     text-transform: uppercase;
     padding: 0;
     margin: 0;
-    margin-bottom: 20px;
     font-weight: lighter;
     display: inline-block;
 
@@ -121,7 +126,6 @@
     font-family: Dekar;
     font-weight: bolder;
     margin: 0 2.5vw;
-    margin-bottom: 20px;
 }
 
 @keyframes Description_Transition {
@@ -143,6 +147,15 @@
     animation: Description_Transition 1s ease-out;
 }
 
+b{
+    font-family: Hullist;
+    color: rgb(255, 100, 100);
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
 @keyframes Button_Transition {
     0%{
         transform: translateY(100px);
@@ -154,12 +167,12 @@
 }
 
 .title div a button{
-    color: white;
+    color: rgb(2, 66, 8);
     font-size: 1.5rem;
     width: 190px;
     height: 50px;
     border-radius: 25px;
-    margin: 20 25px;
+    margin: 0 30px;
     padding: 0;
     border: 3px solid rgb(255, 96, 96);
     background: transparent;
@@ -200,7 +213,7 @@
         font-size: 120px;
     }
     .title p{
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 17px;
     }
     .BtnContainer{
